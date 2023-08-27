@@ -30,3 +30,13 @@ and = \b1 -> \b2 -> case b1 of {
                     True -> b2;
                     False -> False
 }
+
+-- :l myFiles/bool.hs
+-- idb True
+-- kT False
+-- not True
+-- and True False
+-- and True True
+-- True && False
+-- True && True
+-- True && not False
