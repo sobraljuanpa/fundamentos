@@ -3,12 +3,15 @@
 
 module IntroBool where
 
-import Prelude (Show)
+import Prelude (Show, undefined)
 
 data Bool where { True :: Bool; False :: Bool } deriving Show
 
 idb :: Bool -> Bool
 idb = \b -> b
+
+(@@) :: Bool -> Bool -> Bool
+(@@) = undefined
 
 kT :: Bool -> Bool
 kT = \b -> True
